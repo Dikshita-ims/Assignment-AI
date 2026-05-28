@@ -80,7 +80,9 @@ const worker = new Worker(
   },
 
   {
-    connection: redisConnection,
+   connection: {
+  url: process.env.REDIS_URL,
+},
   }
 );
 

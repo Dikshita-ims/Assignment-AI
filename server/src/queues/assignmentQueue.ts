@@ -1,16 +1,12 @@
-import { Queue }
-from "bullmq";
-
-import { redisConnection }
-from "../config/redis";
+import { Queue } from "bullmq";
 
 export const assignmentQueue =
   new Queue(
-
     "assignment-generation",
 
     {
-      connection:
-        redisConnection,
+      connection: {
+        url: process.env.REDIS_URL,
+      },
     }
   );
