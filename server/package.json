@@ -9,7 +9,7 @@
     "ts-node-dev --respawn --transpile-only src/index.ts",
 
   "build":
-    "tsc",
+    "tsc && ls dist",
 
   "start":
     "node dist/index.js"
