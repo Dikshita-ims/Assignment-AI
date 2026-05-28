@@ -150,18 +150,7 @@ REDIS_URL=YOUR_REDIS_URL
 NEXT_PUBLIC_BACKEND_URL=https://assignment-ai-backend.onrender.com
 ```
 
----
 
-# 📸 Screenshots
-
-Add screenshots here:
-
-* Dashboard
-* Assignment Creation Page
-* Generation Page
-* Output Page
-
----
 
 # 🔥 Challenges Faced
 
